@@ -1,30 +1,28 @@
 {
+  "name": "next-landing-vpn",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "npx playwright test"
+    "export": "next build && next export"
   },
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "date-fns": "^2.29.3",
-    "dotenv": "^16.0.3",
-    "fs": "0.0.1-security",
-    "glob": "^9.3.2",
-    "gray-matter": "^4.0.3",
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.1"
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^10.4.12",
+    "framer-motion": "6.0.0",
+    "next": "^12.3.1",
+    "postcss": "^8.4.17",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scroll": "^1.8.1",
+    "react-slick": "^0.27.13",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "@playwright/test": "^1.32.1",
-    "lighthouse": "^10.1.0",
-    "node-fetch": "^3.3.1",
-    "playwright": "^1.32.1",
-    "playwright-lighthouse": "^3.0.0",
-    "util": "^0.12.5"
+    "babel-plugin-inline-react-svg": "^1.1.2"
   }
 }

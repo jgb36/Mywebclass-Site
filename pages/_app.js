@@ -1,5 +1,8 @@
-import '../styles/global.css'
+import "../styles/tailwind.css";
+import "../styles/slick.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
+
+export default MyApp;
