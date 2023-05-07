@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-"Lessons for people of all skill levels and experiences.",
-  "Different frameworks such as React and NextJS.",
-  "HTML/CSS.",
-  "How to write playwright tests"
+  "Lessons for people of all skill levels and experiences.",
+  "How to use AI responsibly",
+  "How to train your own AI",
+  "Learn different keywords to refine your AI skills"
 ]
 
 const Feature = () => {
