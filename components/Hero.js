@@ -36,7 +36,9 @@ const Hero = ({
             className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}>
             <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">             </h1>
+              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+                Start your journey to learning AI with <strong>Mywebclass.org</strong>.
+              </h1>
               <p className="text-black-500 mt-4 mb-6">
                 Learn about how to use and incorporate AI into your classroom
                 as a teacher.
