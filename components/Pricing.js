@@ -1,8 +1,9 @@
 import React, { useMemo } from "react";
 import Image from "next/image";
 import Testimoni from "./Testimoni";
-import ButtonPrimary from "./misc/ButtonPrimary";
+//import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
+import MyComponent from "./misc/Email";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
@@ -228,9 +229,11 @@ const Pricing = () => {
                   <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
                     Like what you see?
                   </h5>
-                  <p>Join the mywebclass team today to start your journey.</p>
+                  <p>You can sign up to our website to receive updates and news.</p>
                 </div>
-                <ButtonPrimary>Join Our Program</ButtonPrimary>
+
+                <MyComponent></MyComponent>
+
               </div>
               <div
                 className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
