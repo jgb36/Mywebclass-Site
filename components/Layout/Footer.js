@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <LogoVPN className="h-8 w-auto mb-6" />
           <p className="mb-4">
-            <strong className="font-medium">LaslesVPN</strong> is a private
-            virtual network that has unique features and has high security.
+            <strong className="font-medium">Mywebclass</strong> is a service committed
+            to giving everybody access to knowledge about AI.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">

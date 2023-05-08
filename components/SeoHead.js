@@ -7,7 +7,7 @@ const defaultMeta = {
   title: 'Mywebclass.org',
   siteName: 'Mywebclass',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Landing page for mywebclass.org',
   // change base url of your web (without '/' at the end)
   url: 'https://next-landing-vpn.vercel.app',
   type: 'website',
