@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title='Mywebclass.org' />
+      <SeoHead title='Mywebclass' />
       <Layout>
         <Hero />
         <Feature />
