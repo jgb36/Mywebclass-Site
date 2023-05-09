@@ -38,8 +38,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "about"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 a")
+                  ? " text-green-500 animation-active "
+                  : " text-black-500 hover:text-green-500 a")
               }
             >
               About
@@ -56,8 +56,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "feature"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-green-500 animation-active "
+                  : " text-black-500 hover:text-green-500 ")
               }
             >
               Feature
@@ -74,8 +74,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "pricing"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-green-500 animation-active "
+                  : " text-black-500 hover:text-green-500 ")
               }
             >
               Pricing
@@ -92,8 +92,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "testimoni"
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 ")
+                  ? " text-green-500 animation-active "
+                  : " text-black-500 hover:text-green-500 ")
               }
             >
               Testimonial
@@ -101,7 +101,7 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
+              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-green-500 transition-all">
                   Sign In
               </a>
             </Link>
