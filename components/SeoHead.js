@@ -7,9 +7,9 @@ const defaultMeta = {
   title: 'Mywebclass.org',
   siteName: 'Mywebclass',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Landing page for mywebclass.org',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://mywebclass.org',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
@@ -143,7 +143,7 @@ const favicons = [
   {
     rel: 'apple-touch-icon',
     sizes: '180x180',
-    href: '/favicon/apple-icon-180x180.png',
+    href: '/favicon/apple-touch-icon.png',
   },
   {
     rel: 'mask-icon',
@@ -176,7 +176,7 @@ const favicons = [
     rel: 'icon',
     type: 'image/png',
     sizes: '192x192',
-    href: '/favicon/android-icon-192x192.png',
+    href: '/favicon/android-chrome-192x192.png',
   },
   {
     rel: 'manifest',
