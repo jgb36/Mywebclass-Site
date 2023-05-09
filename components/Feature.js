@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Lessons for people of all skill levels and experiences.",
+  "Learn how to incorporate AI into your classroom.",
   "How to use AI responsibly",
   "How to train your own AI",
-  "Learn different keywords to refine your AI skills"
+  "Learn different keywords to ensure precise results"
 ]
 
 const Feature = () => {
@@ -24,7 +24,7 @@ const Feature = () => {
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
+              alt="Person showing what can be learned"
               layout="responsive"
               quality={100}
               height={414}
