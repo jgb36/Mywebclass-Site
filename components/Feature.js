@@ -24,7 +24,7 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration2.png"
+              src="/assets/Illustration2green.png"
               alt="Person showing what can be learned"
               layout="responsive"
               quality={100}
