@@ -29,13 +29,13 @@ const Footer = () => {
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Pricing{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Countries{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Blog{" "}
             </li>
           </ul>
@@ -43,19 +43,19 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Getting Started</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               FAQ{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Tutorials{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               About Us{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Privacy Policy{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Terms of Service{" "}
             </li>
           </ul>

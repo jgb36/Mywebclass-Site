@@ -10,17 +10,17 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
+      name: "Daria Brolewski",
+      image: "/assets/people-2.png",
       city: "Warsaw",
       country: "Poland",
-      rating: "4.5",
+      rating: "4.6",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I never thought AI would have a proper use in a classroom, but here I am. Mywebclass has blown me away and has truly saved my classroom.",
     },
     {
       name: "Dan Wallace",
-      image: "/assets/people-3.png",
+      image: "/assets/people-1.png",
       city: "Los Angeles",
       country: "USA",
       rating: "4.3",
@@ -28,22 +28,22 @@ const Testimoni = ({
         "I started using mywebclass.org three weeks ago and have already learned so much. I look forward to what else this site has to offer",
     },
     {
-      name: "iezh Robert",
+      name: "Robert Robertson",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      city: "Houston",
+      country: "Texas",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I finally found a good platform to learn about AI. The lessons are all carefully crafted so that you can go at your own pace",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Hayden Smith",
+      image: "/assets/people-1.png",
+      city: "Chicago",
+      country: "USA",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Mywebclass is a truly amazing platform. With all the recent breakthroughs in AI, I just had to start learning about it and this is the perfect place to do so",
     },
   ],
 }) => {
