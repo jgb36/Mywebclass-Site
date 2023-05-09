@@ -10,17 +10,17 @@ const Hero = ({
     {
       name: "Users",
       number: "10,000",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      icon: "/assets/Icon/person.svg",
     },
     {
       name: "Countries",
       number: "13",
-      icon: "/assets/Icon/gridicons_location.svg",
+      icon: "/assets/Icon/location.svg",
     },
     {
       name: "Classes",
       number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      icon: "/assets/Icon/classes.svg",
     },
   ],
 }) => {
