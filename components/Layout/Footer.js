@@ -3,6 +3,7 @@ import LogoVPN from "../../public/assets/mwclasslogo.svg";
 import Facebook from "../../public/assets/Icon/bookface.svg";
 import Twitter from "../../public/assets/Icon/tweeter.svg";
 import Instagram from "../../public/assets/Icon/instagramm.svg";
+import Discord from "../../public/assets/Icon/discord.svg";
 import Link from "next/link";
 
 const Footer = () => {
@@ -24,6 +25,9 @@ const Footer = () => {
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
+            </div>
+            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <Discord className="h-6 w-6" />
             </div>
           </div>
           <p className="text-gray-400">©{new Date().getFullYear()} - Mywebclass</p>
