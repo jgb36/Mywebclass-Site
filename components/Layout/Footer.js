@@ -57,7 +57,9 @@ const Footer = () => {
               About Us{" "}
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
-              Privacy Policy{" "}
+                <Link href="/privacy">
+                    <a>Privacy Policy{" "}</a>
+                </Link>
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Terms of Service{" "}
