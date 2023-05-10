@@ -4,6 +4,8 @@ import Facebook from "../../public/assets/Icon/bookface.svg";
 import Twitter from "../../public/assets/Icon/tweeter.svg";
 import Instagram from "../../public/assets/Icon/instagramm.svg";
 import Discord from "../../public/assets/Icon/discord.svg";
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -12,7 +14,7 @@ const Footer = () => {
           <LogoVPN className="h-12 w-auto mb-6" />
           <p className="mb-4">
             <strong className="font-medium">Mywebclass</strong> is a service committed
-            to giving everybody access to knowledge about AI.
+            to giving everybody access to knowledge about AI. Follow us on social media to stay updated and engage with our community.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -40,7 +42,9 @@ const Footer = () => {
               Countries{" "}
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
-              Blog{" "}
+                <Link href="/blogs">
+                    <a>Blog{" "}</a>
+                </Link>
             </li>
           </ul>
         </div>
@@ -57,7 +61,9 @@ const Footer = () => {
               About Us{" "}
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
-              Privacy Policy{" "}
+                <Link href="/privacy">
+                    <a>Privacy Policy{" "}</a>
+                </Link>
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
               Terms of Service{" "}
