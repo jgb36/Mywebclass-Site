@@ -14,7 +14,7 @@ const Testimoni = ({
       image: "/assets/people-2.png",
       city: "Warsaw",
       country: "Poland",
-      rating: "4.6",
+      rating: "4.8",
       testimoni:
         "I never thought AI would have a proper use in a classroom, but here I am. Mywebclass has blown me away and has truly saved my classroom.",
     },
@@ -41,7 +41,7 @@ const Testimoni = ({
       image: "/assets/people-1.png",
       city: "Chicago",
       country: "USA",
-      rating: "4.5",
+      rating: "4.7",
       testimoni:
         "Mywebclass is a truly amazing platform. With all the recent breakthroughs in AI, I just had to start learning about it and this is the perfect place to do so",
     },
