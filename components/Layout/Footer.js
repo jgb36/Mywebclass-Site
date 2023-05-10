@@ -14,7 +14,8 @@ const Footer = () => {
           <LogoVPN className="h-12 w-auto mb-6" />
           <p className="mb-4">
             <strong className="font-medium">Mywebclass</strong> is a service committed
-            to giving everybody access to knowledge about AI. Follow us on social media to stay updated and engage with our community.
+            to giving everybody access to knowledge about AI.
+            Follow us on social media and join our discord server by clicking the icon.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -27,7 +28,9 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Discord className="h-6 w-6" />
+                <Link href="https://discord.gg/ht5d5RUf">
+                <a><Discord className="h-6 w-6" /></a>
+                </Link>
             </div>
           </div>
           <p className="text-gray-400">©{new Date().getFullYear()} - Mywebclass</p>
