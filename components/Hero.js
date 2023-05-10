@@ -43,7 +43,10 @@ const Hero = ({
                 Learn about how to use and incorporate AI into your classroom
                 as a teacher.
               </p>
-              <ButtonPrimary>Join Our Program</ButtonPrimary>
+              <a href="https://github.com/NJIT-WIS/project-2-team-bard">
+                <ButtonPrimary>Join Our Program</ButtonPrimary>
+              </a>
+
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
