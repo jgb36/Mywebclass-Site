@@ -46,7 +46,7 @@ const Pricing = () => {
               >
                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                   <Image
-                    src="/assets/Free1.png"
+                    src="/assets/free1.png"
                     width={145}
                     height={165}
                     alt="Standard Plan"
