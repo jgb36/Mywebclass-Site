@@ -3,6 +3,8 @@ import LogoVPN from "../../public/assets/mwclasslogo.svg";
 import Facebook from "../../public/assets/Icon/bookface.svg";
 import Twitter from "../../public/assets/Icon/tweeter.svg";
 import Instagram from "../../public/assets/Icon/instagramm.svg";
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -36,7 +38,9 @@ const Footer = () => {
               Countries{" "}
             </li>
             <li className="my-2 hover:text-green-500 cursor-pointer transition-all">
-              Blog{" "}
+                <Link href="/blogs">
+                    <a>Blog{" "}</a>
+                </Link>
             </li>
           </ul>
         </div>
