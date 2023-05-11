@@ -40,7 +40,7 @@ export default function Home() {
 
   return (
     <>
-      <SeoHead title='Mywebclass' />
+      <SeoHead title='Mywebclass.org' />
       <Layout>
         <div className={`fixed inset-0 z-40 ${showPopup ? 'flex' : 'hidden'}`} style={{ backgroundColor: 'rgba(255,255,255,1)' }}>
           <div className="mx-auto my-auto max-w-lg w-full p-4 bg-black rounded-lg">
