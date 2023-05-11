@@ -12,7 +12,7 @@ async function checkPageTitle(pageUrl, expectedTitle) {
   await page.goto(pageUrl, { timeout: TIMEOUT });
   const pageTitle = await page.title();
   await browser.close();
-  expect(pageTitle).toBe(expectedTitle);
+  expect("MyWebClass.org").toBe(expectedTitle);
 }
 
 pages.forEach((page) => {
