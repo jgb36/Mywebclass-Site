@@ -43,7 +43,7 @@ const Hero = ({
                 Learn about how to use and incorporate AI into your classroom
                 as a teacher.
               </p>
-              <a href="https://github.com/NJIT-WIS/project-2-team-bard">
+              <a href="/sign_up">
                 <ButtonPrimary>Join Our Program</ButtonPrimary>
               </a>
 
